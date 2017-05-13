@@ -1,0 +1,289 @@
+
+body {
+	background-color: #EEE;
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover {
+	color: steelblue;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+/************************
+TITLE AREA
+************************/
+
+nav .titlearea {
+	margin-top: 33px;
+	float: left;
+	
+}
+
+nav .titlearea li {
+	display: inline-block;
+	list-style-type: none;
+	font-size: 26px;
+	margin-top: 10px;
+	font-family: cursive;
+
+}
+
+nav .titlearea li .fa-diamond {
+	color: steelblue;
+}
+
+/***********************
+NAV ITEMS
+*************************/
+
+nav .navitems {
+	float: right;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+
+}
+
+nav .navitems li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 10px;
+	margin-right: 25px;
+}
+
+/****************************
+HEADER
+******************************/
+
+header {
+
+	clear: left;
+	clear: right;
+	text-align: center;
+	margin-top: 100px;
+	/*border-top: 2px solid black;*/
+}
+
+/***************************
+HEADER
+****************************/
+
+header hr {
+	max-width: 95%;
+	margin-bottom: 50px;
+}
+
+header h1 span {
+	color: steelblue;
+}
+
+/**************************
+MAIN IMAGE
+***************************/
+.mordor img {
+	display: block;
+	margin: auto;
+	border-radius: 20px;
+	width: 1350px;
+	height: 400px;
+	object-fit: cover;
+	margin-top: 70px;
+}
+
+/**************************
+ABOUT ME AND MY WORK
+***************************/
+
+
+.aboutme,
+.mywork {
+	width: 600px;
+	margin: 30px;
+}
+
+.aboutme h2,
+.mywork h2 {
+	text-align: center;
+	color: steelblue;
+	font-family: cursive;
+}
+
+/**************************
+ JUST ABOUT ME
+***************************/
+
+.aboutme {
+	float: left;
+}
+
+/**************************
+ JUST MY WORK
+***************************/
+
+.mywork {
+	float: right;
+}
+
+/*********************
+BOTH ROWS IMAGES
+********************/
+
+.toprowimg,
+.botrowimg {
+	text-align: center;
+}
+
+
+figure {
+	display: inline-block;
+	/*text-align: center;*/
+	margin-left: 6px;
+	margin-right: 6px;
+	background-color: white;
+	border-radius: 20px;
+	height: 270px;
+
+}
+
+.toprowimg figure figcaption,
+.botrowimg figure figcaption {
+	text-align: left;
+	font-size: 20px;
+	padding-left: 6px;
+}
+
+.toprowimg figure figcaption span,
+.botrowimg figure figcaption span {
+	color: steelblue;
+	font-size: 14px;
+	padding-left: 6px;
+}
+
+
+
+/*********************
+TOP ROW IMAGES
+********************/
+
+.toprowimg figure img {
+	display: inline-block;
+	height: 190px;
+	width: 210px;
+	object-fit: cover;
+	margin: auto;
+	border-radius: 20px 20px 0 0;
+	float: left;
+
+}
+
+/*********************
+BOTTOM ROW IMAGES
+********************/
+
+.botrowimg figure img {
+	display: inline-block;
+	height: 190px;
+	width: 210px;
+	object-fit: cover;
+	margin: auto;
+	border-radius: 20px 20px 0 0;
+	float: left;
+}
+
+/********************
+GOODBYE THANKS
+*******************/
+
+.thanks {
+	text-align: center;
+	color: steelblue;
+	font-family: cursive;
+}
+
+/********************
+FOOTER
+*******************/
+
+footer {
+	background-color: #2D2D2D;
+}
+
+footer h2 {
+	color: steelblue;
+	font-family: cursive;
+	padding-left: 10px;
+}
+
+/********************
+COMMENT BOX
+*******************/
+
+footer textarea {
+	display: block;
+
+
+}
+
+footer .nameemail {
+	width: 600px;
+	margin-top: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+
+}
+
+footer .message {
+	display: inline-block;
+	width: 600px;
+	height: 200px;
+	margin-top: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+
+}
+
+/********************
+ICONS
+*******************/
+
+.icons {
+	color: steelblue;
+	float: right;
+	margin-right: 30px;
+	font-size: 55px;
+
+}
+
+.icons i {
+	margin-right: 18px;
+	border-radius: 100%;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
